@@ -1,0 +1,15 @@
+//Here a and b are globle variables.
+#include <stdio.h>
+int a=50,b=40;
+void main()
+{
+print("a=%d and b=%d",a,b);
+}
+
+//Here a and b are local variables
+#include<stdio.h>
+void main(){
+int a;
+int b;
+int sum=a+b;
+}
